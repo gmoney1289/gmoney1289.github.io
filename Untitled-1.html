@@ -1,6 +1,7 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
+    <script type="text/javascript" src="friend.js"></script>
     <style>
         body {
             background-color: lightgrey;
@@ -13,13 +14,14 @@
 
         p {
             color: blue;
-            font:x-large
+            font: x-large
         }
+
         p1 {
             color: blue;
             align-content: center;
+            font: verdana;
         }
-        
     </style>
     <title>Best Friend Test</title>
 </head>
@@ -40,19 +42,6 @@
     
     <body>
         <p align="center">Find out who your real best friend is...</p>
-        <div align="center"><input type="image" src="gregProfile.jpg" align="float:center" width="400" height="400" onclick="myFunction()" </input></div>
-        <script>
-            function myFunction() {
-                var name = prompt("Hi, what is your name?");
-                alert("Hello, " + name);
-
-                var friend = prompt("Who is your best friend?");
-
-                while (friend != "Greg") {
-                    alert("Try Again");
-                    var friend = prompt("Who is your best friend?");
-                } alert("Good job, " + name);
-            }
-        </script>
+        <div align="center"><input id="button" type="image" src="gregProfile.jpg" align="float:center" width="400" height="400" onclick="myFunction()" </input></div>
     </body>
 </html>
