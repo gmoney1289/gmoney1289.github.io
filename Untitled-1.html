@@ -6,42 +6,32 @@
         body {
             background-color: lightgrey;
             align-content: center;
-        }
-
-        h1 {
-            color: red;
-        }
-
-        p {
-            color: blue;
-            font: x-large
-        }
-
-        p1 {
-            color: blue;
-            align-content: center;
-            font: verdana;
+            font-size:75px;
         }
     </style>
     <title>Best Friend Test</title>
 </head>
-    <style>
-        .button {
-            background-color: #f05123;
-            border: none;
-            color: black;
-            font: verdana;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 25px;
-            cursor: pointer;
-        }
-    </style>
+<style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: f05123;
+        color: antiquewhite;
+        text-align: center;
+        text-decoration: wavy;
+        height: 10%;
+        padding-bottom: 65px;
+    }
+</style>
     
     <body>
-        <p align="center">Find out who your real best friend is...</p>
-        <div align="center"><input id="button" type="image" src="gregProfile.jpg" align="float:center" width="400" height="400" onclick="myFunction()" </input></div>
+        <p align="center" style="font-family:verdana; color:133156; font-size=100px">Find out who your real best friend is...</p>
+        <div align="center"><input id="button" type="image" src="gregProfile.jpg" align="float:center" width="400" height="400" onclick="myFunction()"></input></div>
+        <div align="center" style="font-family:verdana; font-size:40px"><p1 align="center">Click the image above to find out!</p1></div>
+        <div class="footer">
+            <p><marquee behavior="scroll" direction="left">Good luck... </marquee></p>
+        </div>
     </body>
 </html>
